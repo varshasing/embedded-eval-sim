@@ -30,3 +30,4 @@ The simulator is able ot directly read disassembled code for this architecture (
 Local memory in this embedded system is an overly-simplistic cache. When an application code starts running on the simulator, the local memory does not have any relevant data. First time each memory address in requested, assume there is a "miss" in local memory, then the access delay is only 2 cycles.
 
 - Does not consider code memory in this simulator. Code is given in text format and an assumption is that code address spacec does not conflict with data addresses.
+# embedded-eval-sim
